@@ -1,0 +1,17 @@
+* {
+    /* color: rgb(255, 255, 255); */
+    color: #f85451;
+}
+
+
+h1 {
+    color: blue;
+    font-size: 40px;
+    background-color: blueviolet;
+}
+
+
+b {
+    color: aqua;
+    background-color: brown;
+}
