@@ -1,0 +1,33 @@
+
+
+h1,h2 {
+    
+    text-transform: uppercase;
+    color: red;
+    background-color: aqua;
+    text-decoration: overline;
+    /* line-height: 200px; */
+    text-align: left;
+    text-shadow: #0d6efd;
+
+}
+
+
+a {
+    text-decoration: none;
+}
+
+button {
+    background-color: #0d6efd ;
+    border: none;
+    width: 200px;
+    color: white;
+}
+
+button:hover{
+    background-color: green;
+}
+
+a:visited{
+    color: black;
+}
