@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#hello {
+    color: green;
+}
+
+#world {
+    color: red;
+}
+
+button {
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
+
+.btn {
+ background-color: red;
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
+
+#box {
+    /* height: 250px; */
+    max-height: 400px;
+    width: 100%;
+    /* max-width: 720px; */
+    background-color: aqua;
+    /* min-width: ; */
+    overflow: scroll;
+    
+    
+}
+
+#box2{
+    height: 240px;
+    width: 240px;
+    background-color: yellow;
+}
+
+#box3{
+    height: 240px;
+    width: 240px;
+    background-color: brown;
+}
+#box4{
+    height: 240px;
+    width: 240px;
+    background-color: blueviolet;
+}#box5{
+    height: 240px;
+    width: 240px;
+    background-color: aquamarine;
+}#box6{
+    height: 240px;
+    width: 240px;
+    background-color: blue;
+}#box7{
+    height: 240px;
+    width: 240px;
+    background-color: red;
+}
+
+#parent-box{
+    display: flex;
+    gap: 10px;
+}
+
+
+#navbar {
+    background-color: aqua;
+    height: 180px;
+    width: 80%;
+    border-radius: 20px;
+    margin: 10px auto;
+    text-align: center;
+    font-size: 50px;
+     display: flex; 
+     justify-content: center;
+    align-items: center;  
+
+
+}
+
+.div-img{
+    height: 400px;
+    width: 400px;
+}
+img {
+    height: 100%;
+    width: 100%;
+}
+
+#img-box {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+#img1{
+    border-radius: 100%;
+}
+
+.card {
+    height: 180px;
+    width: 180px;
+    background-color: bisque;
+    /* margin-top: 40px; */
+}
+
+#card-box {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    /* padding-top: 40px; */
+    margin-top: 40px;
+}
+
+#footer {
+    background-color: burlywood;
+    height: 400px;
+    margin-top: 40px;
+}
