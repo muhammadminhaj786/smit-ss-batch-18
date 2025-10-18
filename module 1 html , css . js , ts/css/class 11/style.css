@@ -1,0 +1,44 @@
+/* * {
+    color: red;
+} */
+
+/* p {
+    color: green;
+} */
+
+/* #content {
+
+    color: aqua;
+
+} */
+
+.content-2 {
+    color: blueviolet;
+    font-size: 48px;
+    text-align: center;
+    border: 2px solid black;
+    width: 200px;
+
+}
+
+img {
+    height: 100%;
+    width: 100%;
+}
+
+h1 {
+    color: green !important;
+}
+
+#box1 {
+    height: 100px;
+    width: 100px;
+    background-color: brown;
+    border-radius: 50px;
+    margin-left: 110px;
+}
+
+ol {
+    /* list-style-type: circle; */
+    list-style-image: url("./images/star.jpg");
+}
