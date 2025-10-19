@@ -1,0 +1,74 @@
+
+
+ol {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    justify-content: end;
+}
+
+/* li{
+    margin: 10px;
+} */
+
+#item1 {
+    color: green;
+}
+
+table {
+    /* border: 2px solid black; */
+    width: 800px;
+    
+}
+
+td {
+    border: 2px solid black;
+}
+
+th {
+    text-transform: capitalize;
+    color: blue;
+}
+
+#data1 {
+    background-color: blue;
+    color: white;
+    width: 40px;
+    height: 80px;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+span {
+    display: block;
+}
+
+label {
+    font-weight: 800;
+    display: block;
+}
+
+#inp1 {
+    border-radius: 20px;
+    margin-top: 4px;
+    height: 30px;
+    width: 200px;
+    padding: 5px;
+    border: 2px solid green;
+}
+
+#parent{
+    display: flex;
+    width: 100%;
+}
+
+#img {
+    width: 50%;
+}
+#form{
+    width: 50%;
+}
+img {
+    width: 100%;
+}
