@@ -1,0 +1,14 @@
+1) git download
+2)install git
+3) signup github
+4) create repo
+
+commands
+ git config --global user.name yourname
+git config --global user.email youremail
+git init
+git add .
+ git commit -m 'first comment'
+git branch -M main
+\
+

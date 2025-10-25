@@ -1,0 +1,16 @@
+#parent {
+    display: flex;
+    justify-content: center;
+}
+
+#box1{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+}
+
+#box2 {
+        height: 200px;
+    width: 200px;
+    background-color: green;
+}
