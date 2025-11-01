@@ -1,0 +1,16 @@
+
+
+
+#parent {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.box {
+    height: 400px;
+    width: 270px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
