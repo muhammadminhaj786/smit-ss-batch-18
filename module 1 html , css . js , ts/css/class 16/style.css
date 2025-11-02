@@ -1,0 +1,47 @@
+
+
+#parent {
+    display: flex;
+    border: 1px solid black;
+    width: 800px;
+    position: relative;
+}
+
+.box1 {
+    height: 80px;
+    width: 80px;
+    background-color: aqua;
+    position: fixed;
+    right: 0;
+    border-radius: 100%;
+    bottom: 0;
+
+}
+.box2 {
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+}
+.box3 {
+    height: 200px;
+    width: 200px;
+    background-color: blueviolet;
+ 
+}
+
+.box5 {
+    height: 800px;
+}
+
+nav {
+    height: 100px;
+    background-color: burlywood;
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
+.nav-top {
+    height: 60px;
+    background-color: blue;
+}

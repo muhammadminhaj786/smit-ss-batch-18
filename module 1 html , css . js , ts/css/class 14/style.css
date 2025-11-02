@@ -7,6 +7,8 @@
 #nav {
   height: 44px;
   background-color: #181818;
+  position: fixed;
+  top: 0;
 }
 
 ul {

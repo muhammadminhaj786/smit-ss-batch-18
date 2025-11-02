@@ -1,16 +1,44 @@
-
-
-
 #parent {
-    display: flex;
-    gap: 10px;
-    flex-wrap: wrap;
-    flex-direction: column;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  flex-direction: column;
 }
 
 .box {
-    height: 400px;
-    width: 270px;
-    border: 2px solid black;
-    border-radius: 10px;
+  height: 400px;
+  width: 270px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.inp {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input {
+  width: 200px;
+  height: 30px;
+  /* border-radius: 10px; */
+  border: none;
+  border-bottom: 2px solid black;
+}
+
+#inp2 {
+  display: flex;
+  gap: 20px;
+}
+
+.fb-btn {
+  height: 48px;
+  width: 364px;
+  background-color: #0866ff;
+  border: none;
+  border-radius: 6px;
+  font-size: 20px;
+  line-height: 48px;
+  padding: 0 16px;
+  color: white;
 }
