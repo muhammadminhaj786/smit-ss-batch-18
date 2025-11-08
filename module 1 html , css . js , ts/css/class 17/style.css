@@ -1,0 +1,43 @@
+
+/* 
+.box1 {
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+       margin-top: 10px;
+}
+
+.parent{
+    display: flex;
+    gap: 20px;
+}
+
+.outer {
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+} */
+/* .parent{
+    display: flex;gap: 20px;
+}
+.box1{
+    width: 300px;
+    height: 300px;
+    background-color: aquamarine;
+    margin: 10px;
+}
+.childparent{flex-direction: column;} */
+
+.parent {
+    display: flex;
+}
+
+.box {
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+}
+
+.box2 {
+    order: 4;
+}
