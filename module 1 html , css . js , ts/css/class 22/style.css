@@ -1,0 +1,187 @@
+/* p {
+  color: red;
+  animation: shake 2s infinite;
+  font-size: 30px;
+} */
+
+button:hover {
+  transform: translateX(80px);
+}
+
+.box {
+  background-color: red;
+  height: 100px;
+  width: 100px;
+  padding: 20px;
+  margin-top: 20px;
+  /* border-radius: 50%; */
+  /* animation: divRotate 2s linear ; */
+}
+
+.box:hover {
+  animation: divRotate 2s linear infinite;
+}
+
+@keyframes divRotate {
+  /* 0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(180deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    } */
+  from {
+    transform: (0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes shake {
+  0% {
+    transform: scale();
+  }
+  25% {
+    transform: scale(90%);
+  }
+}
+
+.ball {
+    height: 250px;
+    width:250px;
+    /* animation: bounce;
+    animation-duration: 2s;
+    transition: linear; */
+}
+
+.ball img {
+  height: 100%;
+  width: 100%;
+}
+.ball:hover {
+  animation: bounce 2s linear ;
+}
+@keyframes bounce {
+  0% {
+    transform: translateY(80px);
+  }
+  25% {
+    transform: translateY(-80px);
+  }
+  50% {
+   transform: translateY(80px);
+  }
+  75% {
+    transform: translateY(-100px);
+  }
+  100% {
+    transform: translateY(20px);
+  }
+}
+
+.hero {
+  height: 663px;
+  width: 100%;
+  background-image: url('./images/Rectangle\ 2.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.shop {
+width: 210;
+height: 52;
+opacity: 1;
+gap: 12px;
+border-radius: 62px;
+padding-top: 16px;
+padding-right: 54px;
+padding-bottom: 16px;
+padding-left: 54px;
+background-color: black;
+color: white;
+
+}
+
+.box2 {
+  height: 100px;
+  width: 100px;
+  background-color: aqua;
+  transition: 2s ease-in;
+}
+
+/* selectors :psuedo-class-name {
+  css
+} */
+
+.box2:hover {
+  background-color: black;
+  border-radius: 50%;
+  cursor: progress;
+  /* transition: 2s ease-in; */
+}
+.inp {
+  border: 1px solid green;
+}
+
+.inp:focus {
+  border: 2px solid blue;
+  outline: none;
+}
+
+a:visited {
+  color: brown;
+}
+
+p::first-letter {
+  color: red;
+  font-size: 40px;
+}
+
+.inp::placeholder {
+  color: red;
+}
+p::selection{
+  color: red;
+}
+
+button:active {
+  background-color: green;
+}
+
+
+.box3{
+  height: 100px;
+  width: 100px;
+  background-color: red;
+}
+
+.box3:active {
+  background-color: green;
+}
+
+body::-webkit-scrollbar {
+  padding: 8px;
+  background-color: blue;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: green;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: pink;
+  border-radius: 10px;
+  height: 2px;
+
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background-color: goldenrod;
+  border-radius: 10px;
+  height: 2px;
+
+}
