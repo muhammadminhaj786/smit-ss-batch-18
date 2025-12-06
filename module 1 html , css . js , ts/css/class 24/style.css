@@ -1,0 +1,11 @@
+
+.heading {
+    text-align: center;
+}   
+
+.my-background  {
+    background-image: url('./images/car.webp');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
