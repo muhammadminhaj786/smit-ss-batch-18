@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sign Up</title>
+
+    <!-- Bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        body {
+            height: 100vh;
+            background: #000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        body {
+            height: 100vh;
+            background: linear-gradient(135deg, #0a0a0a, #222020, #000000, #1b1919);
+            background-size: 400% 400%;
+            animation: bgMove 12s ease infinite;
+        }
+
+        @keyframes bgMove {
+            0% {
+                background-position: 0% 50%;
+            }
+
+            50% {
+                background-position: 100% 50%;
+            }
+
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
+        .signup-card {
+            max-width: 400px;
+            width: 100%;
+            padding: 15px 25px;
+            border-radius: 20px;
+            background: #fff;
+            /* White card */
+            box-shadow: 0 10px 25px rgba(255, 255, 255, 0.1);
+            text-align: center;
+        }
+
+        .signup-btn {
+            border-radius: 25px;
+        }
+
+        .form-label {
+            font-weight: 600;
+        }
+
+        .login-link a {
+            font-weight: 600;
+            text-decoration: underline;
+            color: #000;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div style="cursor: pointer;" class="signup-card">
+
+        <h3 class="mb-3 fw-bold">Sign Up</h3>
+        <p class="sub mb-4">Create a new account</p>
+
+        <form id="signupForm" action="">
+            <div class="mb-3 text-start">
+                <label class="form-label">Full Name</label>
+                <input type="text" class="form-control" placeholder="Enter full name" required>
+            </div>
+
+            <div class="mb-3 text-start">
+                <label class="form-label">Email address</label>
+                <input type="email" class="form-control" placeholder="Enter email" required>
+            </div>
+
+            <div class="mb-3 text-start">
+                <label class="form-label">Password</label>
+                <input type="password" class="form-control" placeholder="Enter password" required>
+            </div>
+
+            <div class="mb-3 text-start">
+                <label class="form-label">Confirm Password</label>
+                <input type="password" class="form-control" placeholder="Confirm password" required>
+            </div>
+
+            <button type="submit" class="btn btn-dark w-100 signup-btn">Sign Up</button>
+
+            <p class="login-link mt-3">
+                Already have an account?
+                <a href="login.html" class="fw-bold text-light text-decoration-underline"><a href="login.html">Login</a>
+                </a>
+            </p>
+        </form>
+    </div>
+
+    <!-- JS for redirect -->
+    <script>
+        document.getElementById('signupForm').addEventListener('submit', function (e) {
+            e.preventDefault(); // Prevent default form submission
+            window.location.href = 'index.html'; // Redirect to main page after signup
+        });
+    </script>
+
+</body>
+
+</html>
