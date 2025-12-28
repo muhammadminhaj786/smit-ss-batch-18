@@ -73,7 +73,10 @@ console.log('4' * '4')
 
 
 '0 false nan undifined null "" ! '
-if(""){
+
+"boolean true false"
+
+if(!true){
     console.log('true')
 }else {
     console.log('false')
