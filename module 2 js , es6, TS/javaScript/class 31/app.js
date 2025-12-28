@@ -88,4 +88,5 @@ console.log(arr)
 var colorArr = ['red', "green" , "blue"]
 colorArr[1] = 'yellow'
 colorArr[13] = 'green'
+console.log('test')
 console.log(colorArr)
