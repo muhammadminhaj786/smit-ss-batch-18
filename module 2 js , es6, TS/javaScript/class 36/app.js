@@ -58,18 +58,25 @@ console.log(hello)
 //     }
 // }
 
-var flag = false
-var sen = 'this is a a pakistan'
-if (sen.slice(12) == 'pakistan'){
-    flag = true
-}
+// var flag = false
+// var sen = 'this is a a pakistan'
+// if (sen.slice(12) == 'pakistan'){
+//     flag = true
+// }
 // for (var i =0; i<sen.length; i++){
 //     if (sen.slice(12) == 'pakistan'){
 //         flag = true
 //     }
 // }
-if (flag){
-    alert("found")
-}else {
-    alert("not found")
+// if (flag){
+//     alert("found")
+// }else {
+//     alert("not found")
+// }
+
+
+let word = prompt('enter any word')
+
+const convertToUpperCase = () =>{
+    const uppercases = ["A", "B","C","D","E", "F", "G", "H", "I", "J", "K", "L", ""]
 }
