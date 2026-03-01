@@ -1,0 +1,18 @@
+
+
+.my-border {
+    border: 2px solid black;
+}
+
+.inp {
+    height: 38px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#parent {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
