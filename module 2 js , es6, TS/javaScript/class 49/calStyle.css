@@ -1,0 +1,41 @@
+
+
+
+
+button {
+    height: 40px;
+    width: 80px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+   
+}
+
+.row1, .row2, .row3, .row4, .row5 {
+    margin: 20px 0px;
+}
+
+.bgorange {
+    background-color: #B35A25;
+    color: white;
+}
+
+#inp {
+    width: 320px;
+    border-radius: 10px;
+    height: 40px;
+    border: 1px solid #B35A25;
+    padding: 10px;
+}
+
+.parent {
+    /* width: 340px; */
+    margin: 0px auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
