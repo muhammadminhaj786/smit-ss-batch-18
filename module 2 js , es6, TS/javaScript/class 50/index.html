@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="parent">
+      <h1 class="txt">Rock Paper Scissor</h1>
+      <div class="game-board">
+        <div onclick="play('rock')" class="box">
+          <img src="./images/rock.jpeg" alt="" />
+        </div>
+        <div onclick="play('paper')" class="box"><img src="./images/paper.jpeg" alt="" /></div>
+        <div onclick="play('scissor')" class="box"><img src="./images/scissor.jpeg" alt="" /></div>
+      </div>
+      <p id="result"></p>
+    </div>
+  </body>
+  <script src="app.js"></script>
+</html>

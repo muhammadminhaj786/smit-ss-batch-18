@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .box1 {
+        height: 200px;
+        width: 200px;
+        border: 1px solid black;
+        cursor: pointer;
+        font-size: 180px;
+      }
+      .col {
+        display: flex;
+        gap: 20px;
+      }
+    </style>
+  </head>
+  <body>
+ <div class="col">
+       <div onclick="play(this)" id="box1" class="box1"></div>
+    <div onclick="play(this)" id="box2" class="box1"></div>
+    <div onclick="play(this)" id="box1" class="box1"></div>
+ </div>
+  <div class="col">
+      <div onclick="play(this)" id="box2" class="box1"></div> 
+    <div onclick="play(this)" id="box1" class="box1"></div>
+    <div onclick="play(this)" id="box2" class="box1"></div>
+  </div>
+  <div class="col">
+       <div onclick="play(this)" id="box1" class="box1"></div>
+    <div onclick="play(this)" id="box2" class="box1"></div>
+     <div onclick="play(this)" id="box1" class="box1"></div>
+  </div>
+
+  </body>
+  <script src="tic.js"></script>
+</html>

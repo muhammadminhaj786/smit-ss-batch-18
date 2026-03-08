@@ -1,0 +1,55 @@
+
+body {
+
+    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.txt{
+    text-align: center;
+    color: white;
+    font-size: 48px;
+}
+
+.parent {
+    padding-top: 20px;
+}
+
+.box {
+    height: 180px;
+    width: 180px;
+      border-radius: 50%;
+      cursor: pointer;
+      transition:2s ease-in ;
+}
+
+.box :hover {
+    height: 200px;
+    width: 200px;
+    
+}
+
+.game-board {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 28px;
+  
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    object-fit: fill;
+}
+
+#result {
+    text-align: center;
+    color: white;
+    font-size: 42px;
+    padding-top: 40px;
+}
