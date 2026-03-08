@@ -14,5 +14,7 @@ function play(ele) {
   } else {
     ele.textContent = "o";
     turn = true;
+
+    // aa
   }
 }
