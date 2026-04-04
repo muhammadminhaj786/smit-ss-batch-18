@@ -46,6 +46,10 @@ function Users(a,b,c){
     this.fname = a
     this.amount = b
     this.active = c
+    this.greet = function(){
+        console.log('hi')
+    }
+
 }
 
 Users.prototype.plan = function(){
@@ -69,6 +73,7 @@ var user3 = new Users('irfan', 19, false)
 var user4 = new Users('imran', 28, false)
 var user5 = new Users('nazir', 88, false)
 var user6 = new Users('nazir', 0, false)
+user1.greet()
 
 
 user1.plan()
