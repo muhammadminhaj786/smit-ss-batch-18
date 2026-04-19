@@ -88,6 +88,7 @@ value && console.log("arahi he");
 //       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae officiis vel, eaque itaque consequuntur numquam deleniti dolor, mollitia qui omnis impedit quaerat porro rem. Nesciunt voluptate fugit nam dolores aperiam.",
 //     price: "Rs 450",
 //   },
+
 // ];
 
 // localStorage.setItem('proObj', JSON.stringify(proObj) )
