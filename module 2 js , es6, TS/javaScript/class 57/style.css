@@ -1,0 +1,17 @@
+
+.card {
+    height: 400px;
+    width: 350px;
+    border: 2px solid black;
+    border-radius: 40px;
+    padding: 8px
+}
+.imgDiv {
+    height: 60%;
+    width: 100%
+}
+
+img {
+    height: 100%;
+    width: 100%;
+}
