@@ -1,0 +1,5 @@
+
+
+1) download node js
+2) install typescript
+npm i typescript
