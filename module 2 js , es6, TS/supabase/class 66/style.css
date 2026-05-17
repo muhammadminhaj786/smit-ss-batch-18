@@ -1,0 +1,61 @@
+.inp-body {
+  width: 80%;
+  margin: 20px auto;
+  display: flex;
+  gap: 20px;
+}
+
+#inp {
+  height: 50px;
+  border-radius: 12px;
+  width: 100%;
+  padding: 12px;
+}
+
+.inp-btn {
+  padding: 20px;
+  background-color: aqua;
+  border: none;
+  border-radius: 20px;
+  height: 80px;
+  width: 180px;
+  cursor: pointer;
+}
+
+.lists {
+  max-width: 600px;
+  margin: 20px auto;
+
+}
+
+.todo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border: 1px solid black;
+  width: 100%;
+  height: 60px;
+  border-radius: 12px;
+  margin-top: 20px;
+}
+
+.delete-btn {
+  height: 50px;
+  padding: 20px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 40px;
+  width: 120px;
+}
+
+.edit-btn {
+  height: 50px;
+  padding: 20px;
+  background-color: blue;
+  width: 120px;
+  color: white;
+  border: none;
+  border-radius: 40px;
+}
