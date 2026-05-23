@@ -1,5 +1,5 @@
 const supabaseKey =
-  "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Inp1bnhsc3p1c2ZoZ290bmR3aXNpIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc3ODg5OTQ3OCwiZXhwIjoyMDk0NDc1NDc4fQ.1xP6Rm381SPeNNVonxA-N1a2TIXuqEoBAp6IoD6opBw";
+  "";
 const supabaseUrl = "https://zunxlszusfhgotndwisi.supabase.co";
 const supabaseClient = supabase.createClient(supabaseUrl, supabaseKey);
 console.log(supabaseClient);
